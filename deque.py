@@ -1,0 +1,10 @@
+from collections import deque
+queue = deque(["Perkenalkan", "Nama", "Saya", "Adalah"])
+print(queue)
+queue.append("Attar")
+print(queue)
+queue.append("Musharih")
+print(queue)
+print(queue.popleft())                 
+print(queue.popleft())                 
+print(queue)
